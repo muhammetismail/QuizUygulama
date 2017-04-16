@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.mke_a.quizuygulama.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:layout_weight="0.07"
+        android:text="İNGİLİZCE QUİZ UYGULAMASI"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:paddingTop="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:background="?android:attr/colorControlActivated"
+        android:onClick="sayfa2"
+        android:text="ALIŞTIRMA YAP"
+        android:textSize="18dp"
+
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.33"
+        android:background="?android:attr/colorActivatedHighlight"
+        android:onClick="sayfa3"
+        android:text="KELİME EKLE"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="282dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30"
+        android:background="@android:color/holo_purple"
+        android:onClick="sayfa4"
+        android:text="QUİZ BAŞLA"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="395dp" />
+
+</LinearLayout>
